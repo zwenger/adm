@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  adqDate: 2018-11-12
+  warrExp: 2018-11-12
+  provider: one
+  user: one
+
+two:
+  description: MyString
+  adqDate: 2018-11-12
+  warrExp: 2018-11-12
+  provider: two
+  user: two
