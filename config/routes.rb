@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
 
-  resources :employees
+  root to: "admin/dashboard#index"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  # resources :employees
   # resources :qualifications
   # resources :categorizations
   # resources :categories
